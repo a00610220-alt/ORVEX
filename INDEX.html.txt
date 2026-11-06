@@ -1,0 +1,39 @@
+</footer>
+
+  <!-- Cart Overlay -->
+  <div class="overlay" id="overlay"></div>
+
+  <!-- Shopping Cart -->
+  <aside class="drawer" id="drawer">
+
+    <div class="drawer-head">
+
+      <h2 data-i18n="cartTitle"></h2>
+
+      <button id="closeCart" aria-label="Close">✕</button>
+
+    </div>
+
+    <div class="drawer-body" id="cartItems"></div>
+
+    <div class="drawer-foot">
+
+      <div class="row">
+        <span data-i18n="total"></span>
+        <b id="cartTotal"></b>
+      </div>
+
+      <button class="btn full" id="checkout" data-i18n="checkout"></button>
+
+    </div>
+
+  </aside>
+
+  <!-- Notifications -->
+  <div class="toast" id="toast" role="status"></div>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
